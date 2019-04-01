@@ -2,8 +2,6 @@ import pandas as pd
 import numpy as np
 import math
 import pdb
-def main():
-   df = pd.read_csv(2015_2017_MaleData.csv)
 
 def average(series):
     
