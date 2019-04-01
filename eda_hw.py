@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import math
-
 import statistics as stats
 import pdb
 
@@ -12,7 +11,6 @@ Information on statistics library: https://docs.python.org/3/library/statistics.
 def average(series):
     np.mean(series)
     avg = sum(series)/len(series)
-
     """
     implements the average of a pandas series from scratch
     suggested functions:
@@ -23,14 +21,10 @@ def average(series):
     See numpy documenation for implementation details:
     https://docs.scipy.org/doc/numpy/reference/generated/numpy.mean.html
     """
-
     return avg
 
 def standard_deviation(series):
     standard_dev = stats.stdev(series)
-
-def standard_deviation(series):
-
     """
     implements the sample standard deviation of a series from scratch
     you may need a for loop and your average function
@@ -40,11 +34,10 @@ def standard_deviation(series):
     See numpy documenation for implementation details:
     https://docs.scipy.org/doc/numpy/reference/generated/numpy.std.html
     """
-
     return standard_dev
 
 def median(series):
-
+    med = stats.median(series)
     """
     finds the median of the series from scratch
     you may need to sort your values and use
@@ -55,4 +48,3 @@ def median(series):
     https://pandas.pydata.org/pandas-docs/version/0.23.0/generated/pandas.Series.median.html
     """
     return med
-
