@@ -24,6 +24,6 @@ dependencies:
   - missingno
   - us
   - pip
-  - pysal
+  - pysal<=1.14.4
   - pip:
     - jupyter-contrib-nbextensions
