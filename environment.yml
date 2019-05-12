@@ -2,7 +2,7 @@ name: em212
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.6
   - numpy
   - geopandas
   - matplotlib
@@ -12,6 +12,7 @@ dependencies:
   - pytest=4.0.0
   - statsmodels
   - scikit-learn
+  - census
   - jupyterlab
   - jupyter
   - xlrd
@@ -20,7 +21,9 @@ dependencies:
   - jupyter_nbextensions_configurator
   - wordcloud
   - census
+  - missingno
   - us
   - pip
+  - pysal<=1.14.4
   - pip:
     - jupyter-contrib-nbextensions
