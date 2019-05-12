@@ -1,5 +1,5 @@
 # EM212: Applied Data Science
 
-Follow the link and run compile_games_livescript.mlx
+Course Material for Applied Data Science, Tufts University
 
-[Shared MATLAB files](https://drive.matlab.com/sharing/1cb724ed-2507-4a58-8691-acd0e419d680)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/em212/applied_ds/master)	
