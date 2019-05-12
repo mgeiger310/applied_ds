@@ -8,7 +8,7 @@ import glob
                                         == len(os.getcwd().split('/'))+1\
                                         and x[0].split('/')[-1][0] not in ['_', '.'])])
 def test(folder):
-    if folder == 'lecture_notes':
+    if folder in ['lecture_notes', 'Kodhek']:
         pass
     os.chdir(folder)
     print(os.getcwd())
